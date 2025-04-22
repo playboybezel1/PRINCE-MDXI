@@ -1,0 +1,49 @@
+{
+    "bot-name": "PRINCE-MDXI",
+    "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴘʀɪɴᴄᴇ ᴛᴇᴄʜ ",
+    "logo": "https://raw.githubusercontent.com/Mayelprince/url/main/url/1264.jpg",
+    "keywords": ["bot"],
+    "documentation-link": "https://prince-md-v2-session-id-w9re.onrender.com",
+    "owner-verification":"princemayel99@gmail.com",
+  
+    "env": {
+      "SESSION_ID": {
+        "description": "Put you your SESSION_ID here. Make sure it starts with prince-md-",
+        "value":"",
+        "required": true
+        
+      },
+      "PREFIX": {
+        "description": "Bot command prefix, (e.g, . , ! @ etc",
+        "value":".",
+        "required": true
+        
+      },
+      "AUTO_READ_STATUS": {
+        "description": "Bot will all status, To Enable put true and to disable put false (e.g, true)",
+        "value":"true",
+        "required": false
+        
+      },
+      "MODE": {
+        "description": "Bot mode can be public, private, inbox or groups in small letters (e.g, public)",
+        "value":"private",
+        "required": true
+        
+      },
+      "ALIVE_IMG": {
+        "description": "paste your image url if you don't have you can use this public url.",
+        "required": true,
+        "value": "https://raw.githubusercontent.com/Mayelprince/url/main/url/1264.jpg"
+        
+      },
+      
+      "BOT_NAME": {
+        "description": "write here your name.",
+        "required": true,
+        "value": "𝐏𝐑𝐈𝐍𝐂𝐄 𝐌𝐃𝐗"
+        
+      }
+    }
+  
+}
