@@ -17,7 +17,7 @@
     "MODE": {
       "description": "Set Mode  to 'public' to work in all chats only, 'inbox' to work in pm(inbox) chats only or 'private' to work for you only. Default is 'public'. You can set up this later using .mode",
       "required": false,
-      "value": "private"
+      "value": "public"
     },
     "OWNER_NAME": {
       "description": "Put Owner Name Here",
@@ -35,7 +35,7 @@
       "value": "inboxonly"
     },
     "SUDO_NUMBERS": {
-      "description": "Put Sudo Numbers separated by comma Here ie 2547xxxx,2557xxxxx,928xxxxx. Sudos have same rights as owner(can command the bot)",
+      "description": "Put Sudo Numbers separated by comma Here ie 2347xxxx,2357xxxxx,920xxxxx. Sudos have same rights as owner(can command the bot). if you don't want leave the space empty",
       "required": false,
       "value": ""
     },
@@ -62,7 +62,7 @@
     "AUTO_REPLY_STATUS": {
       "description": "Make it 'true' if you want the bot to send message after viewing status",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "STATUS_REPLY_MSG": {
       "description": "Set your status reply message to be sent after bot views status",
@@ -72,7 +72,7 @@
     "AUTO_READ_MESSAGES": {
       "description": "Enter value to 'true' for blueticking all messages, or 'commands' for blueticking only commands else false. You can set up this later using .autoread",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "PRESENCE": {
       "description": "Put 'online' for always online, 'typing' for always typing a message, 'recording' for always recording audio or 'null' to maintain your presence. You can set up this later using .presence",
@@ -88,7 +88,7 @@
     "ANTIBAD": {
       "description": "Enter 'true' to automatically delete bad words sent by users in groups. You can set up this later using .antibad",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "BAD_WORDS": {
       "description": "Enter bad words separated by a comma(will be deleted if ANTIBAD is set to true)",
@@ -98,7 +98,7 @@
     "AUTO_AUDIO": {
       "description": "Put 'true' if you want the bot to automatically send audio(auto voice) in chat if you use  words such as: hi, hello, good morning, good night. You can set up this later using .autoaudio",
       "required": false,
-      "value": ""
+      "value": "false"
     },
 
     "AUTO_BLOCK": {
@@ -109,17 +109,17 @@
     "AUTO_REACT": {
       "description": "Put 'true' if you want the bot to auto react to messages. You can set up this later using .autoreact",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "ANTICALL": {
       "description": "Make it 'true' if you want to automatically reject calls or 'block' to decline calls and block caller. You can set up this later using .anticall",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "ANTICALL_MSG": {
       "description": "Put Your own Anticall Message the bot will send after rejecting calls",
       "required": false,
-      "value": "*_📞 Auto Call Reject Mode Activated by Gifted-Md. 📵 No Calls Allowed!_*"
+      "value": "*_📞 Auto Call Reject Mode Activated by PRINCE-MDX. 📵 No Calls Allowed!_*"
     },
     "BOT_NAME": {
       "description": "You can edit this but maintain font style for uniformity. Use 'Fonts Type Keyboard' for styles.",
