@@ -5,7 +5,9 @@ const fs = require('fs'),
       convertToBool = (text, fault = 'true') => text === fault;
 
 
-
+global.sessionServer = "https://backend-session-ehli.onrender.com";
+global.session = "https://session-id-2fza.onrender.com"; 
+ 
  
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "PRINCE-MDX~5Iyczfv2sFfDqy20apy8", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
@@ -27,10 +29,10 @@ ANTILINK: process.env.ANTILINK || "false", //  Enter true to kick automatically 
 ANTICALL: process.env.ANTICALL || "false",
 ANTIBAD: process.env.ANTIBAD || "false",
 BAD_WORDS: process.env.BAD_WORDS || "fuck, pussy, anus, idiot", // Add Yours Separated by Comma(will be deleted if ANTIBAD is set to true)
-ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 Auto Call Reject Mode Active. 📵 No Calls Allowed!_*",
+ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 📵 No Calls Allowed!_*",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 BOT_NAME: process.env.BOT_NAME || "𝐏𝐑𝐈𝐍𝐂𝐄 𝐌𝐃𝐗", //  don't change 
-BOT_PIC: process.env.BOT_PIC || "https://cdn.giftedtech.web.id/file/MrbYl.jpg", //  don't change 
+BOT_PIC: process.env.BOT_PIC || "https://raw.githubusercontent.com/Mayelprince/url/main/menun.jpg", //  don't change 
 AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
 AUTO_BIO: process.env.AUTO_BIO || "false",
 AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || " powered by prince",

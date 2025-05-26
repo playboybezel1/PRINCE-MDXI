@@ -12,7 +12,7 @@
 <p align='center'>
 </p>
 
-> **CURRENT BOT VERSION ➜ `2.0.0 ⚡`**
+> **CURRENT BOT VERSION ➜ `3.0.0 ⚡`**
 ---
 
 ```
@@ -149,6 +149,11 @@ JOINING OUR OFFICIAL WHATSAPP GROUP AND CHANNEL. YOU CAN ALSO CONTACT THE OWNER 
 
 ```
 I'M PRINCE M.
+THANKS TO;
+TAIRA MAKINO.
+GIFTED.
+OPAKS.
+FOR SUPPORTING ME IN THIS PROJECT 🙏 
 ```
 -----
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>

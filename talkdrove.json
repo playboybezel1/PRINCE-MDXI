@@ -8,29 +8,47 @@
   
   "env": {
     "SESSION_ID": {
-      "description": "Put your SESSION_ID here. Make sure it starts with prince-md-",
-      "value": "",
-      "required": true
-    },
-    "PREFIX": {
-      "description": "Bot command prefix, (e.g, . , ! @ etc)",
-      "value": ".",
-      "required": true
-    },
-"OWNER_NAME": {
-      "description": "Type Bot Owner Name( your name).",
-      "required": false,
-      "value": "ᴘʀɪɴᴄᴇ ᴛᴇᴄʜ"
-}, 
-    "OWNER_NUMBER": {
-      "description": "put the owner number for bot(you number eg 237677224245).",
-      "required": false,
-      "value": "237677224245"
-    }, 
+      "description": "Must Start with 'PRINCE-MDX~'",
+      "required": true,
+      "value": ""
+    },  
     "MODE": {
-      "description": "Bot mode can be public or private,  (in lowercase) (e.g., public)",
-      "value": "private",
-      "required": true
+      "description": "Set private/public/inbox/groups",
+      "required": false,
+      "value": "public"
+    },
+    "OWNER_NAME": {
+      "description": "Put Owner Name Here",
+      "required": true,
+      "value": "Prince Tech"
+    },
+    "OWNER_NUMBER": {
+      "description": "Put only one Owner Number Here",
+      "required": true,
+      "value": "237677224245"
+    },
+    "ANTI_DELETE": {
+      "description": "Put true/inboxonly/allchats/false",
+      "required": false,
+      "value": "false"
+    },
+    
+    "PRESENCE": {
+      "description": "Put online/typing/recording/unavailable",
+      "required": true,
+      "value": "online"
+    },
+
+    "AUTO_BLOCK": {
+      "description": "Provide country codes you want the bot to automatically block",
+      "required": false,
+      "value": "212,77,12"
+    },
+   
+    "PREFIX": {
+      "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
+      "required": true,
+      "value": "."
     }
   }
 }

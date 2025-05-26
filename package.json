@@ -1,7 +1,7 @@
 {
   "name": "prince-mdx",
   "version": "3.0.0",
-  "description": "Prince-Mdx, a Multi Device Whatsapp Bot to Enhance Whatsapp Communication Experience",
+  "description": "Prince mdx, a Multi Device Whatsapp Bot to Enhance Whatsapp Communication Experience",
   "main": "./index.js",
   "type": "commonjs",
   "--engines": {
@@ -13,9 +13,11 @@
     "restart": "pm2 restart princemdx"
   },
   "keywords": [
-    "prince mdx",
+    "prince-md",
+    "prince-mdx",
+    "prince-mdxi",
     "whatsapp-bot",
-    "prince md"
+    "prince-api"
   ],
   "author": "PrinceTech",
   "license": "MIT",
@@ -35,9 +37,8 @@
     "form-data": "^4.0.1",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.1.0",
-    "gifted-baileys": "^1.5.6",
-    "gifted-dls": "latest",
-    "gifted-downs": "^1.0.0",
+   "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
+    "gifted-dls": "*",
     "git": "0.1.5",
     "isolated-vm": "^5.0.3",
     "javascript-obfuscator": "^4.1.1",
