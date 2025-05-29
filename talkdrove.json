@@ -3,7 +3,7 @@
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴘʀɪɴᴄᴇ ᴛᴇᴄʜ",
   "logo": "https://raw.githubusercontent.com/Mayelprince/url/main/url/1264.jpg",
   "keywords": ["bot"],
-  "documentation-link": "https://session-generator-e8a1.onrender.com",
+  "documentation-link": "https://princeweb.onrender.com",
   "owner-verification": "princemayel99@gmail.com",
   
   "env": {
@@ -27,23 +27,7 @@
       "required": true,
       "value": "237677224245"
     },
-    "ANTI_DELETE": {
-      "description": "Put true/inboxonly/allchats/false",
-      "required": false,
-      "value": "false"
-    },
     
-    "PRESENCE": {
-      "description": "Put online/typing/recording/unavailable",
-      "required": true,
-      "value": "online"
-    },
-
-    "AUTO_BLOCK": {
-      "description": "Provide country codes you want the bot to automatically block",
-      "required": false,
-      "value": "212,77,12"
-    },
    
     "PREFIX": {
       "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
